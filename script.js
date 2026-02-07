@@ -23,7 +23,7 @@ let noCount = 0;
 let play = true;
 
 yesButton.addEventListener("click", () => {
-  titleElement.textContent = "Happy Valentine's Day, Adrii!!  Oh virtual flowers ug fruits AHAHAHAHAHA. Ayaw na sig langi, amping permi :P";
+  titleElement.textContent = "Happy Valentine's Day, Adrii!! Wishing you everything life has to offer :> ";
   buttonsContainer.classList.add("hidden");
   catImg.src = yesGif;
 });
@@ -59,3 +59,4 @@ function updateNoButtonText() {
   noButton.textContent =
     messages[Math.min(noCount, messages.length - 1)];
 }
+
